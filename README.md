@@ -5,7 +5,7 @@ Quiver Visual
 
 A small PHP app which lets you bowse your Quiver notes in visual way. It can live locally (run [MAMP](https://www.mamp.info/) or similar) or on a remote webserver - syncing with your Quiver library with your server via [Dropbox](http://dropbox.com) or [BitTorrent Sync](https://www.getsync.com/).
 
-Issue reporting & Pull requests welcome 🍺
+Issue reporting & pull requests welcome 🍺
 
 _N.B. This project has no affiliation with or endorsement from Quiver or Happen Apps._
 
