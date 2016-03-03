@@ -65,6 +65,8 @@ foreach ($notes as $note):
 		
 endforeach;
 
+usort($formattedNotes, 'sortByDate');
+
 // echo '<pre style="color:#fff">';
 // print_r(json_encode($formattedNotes, JSON_PRETTY_PRINT));
 // echo '</pre>';
