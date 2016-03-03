@@ -9,6 +9,8 @@ Issue reporting & pull requests welcome 🍺
 
 _N.B. This project has no affiliation with or endorsement from Quiver or Happen Apps._
 
+![Example of the app in use](screenshot.png)
+
 ## Installation 
 
 Throw it at a PHP environment. It assumes the `Quiver.qvlibrary` file (or symlink to) is in the root, but this is configurable in [/lib/config.php](/lib/config.php).
@@ -21,6 +23,7 @@ Throw it at a PHP environment. It assumes the `Quiver.qvlibrary` file (or symlin
 
 ## Roadmap
 
+- [ ] UI customisation options (colour, typography, menu position etc.)
 - [ ] Option to hide text only notes
 - [ ] Add image resizing, caching and compression
 - [ ] Add shareable URLs
