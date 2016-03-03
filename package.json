@@ -1,0 +1,20 @@
+{
+  "name": "shoelance-boilerplate",
+  "version": "0.0.0",
+  "author": "abovebored",
+  "scripts": {
+    "preinstall": "which -s grunt && grunt --version | grep grunt-cli > /dev/null 2>&1; if [[ \"$?\" != 0 ]]; then echo 'ERROR: grunt-cli must be installed globally'; exit 1; fi"
+  },
+  "readmeFilename": "README.md",
+  "private": true,
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-clean": "~0.6.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-cssmin": "~0.10.0",
+    "grunt-contrib-sass": "~0.8.0",
+    "grunt-contrib-uglify": "~0.6.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-strip": "~0.2.1"
+  }
+}
