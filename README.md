@@ -7,6 +7,8 @@ A small PHP app which lets you bowse your Quiver notes in visual way. It can liv
 
 Pull requests welcome 🍺
 
+_N.B. This project has no affiliation with or endorsement from Quiver or Happen Apps._
+
 ## Example usages
 
 - Share visiual inspiration with a client/3rd party.
