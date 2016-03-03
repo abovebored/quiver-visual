@@ -9,6 +9,10 @@ Issue reporting & pull requests welcome 🍺
 
 _N.B. This project has no affiliation with or endorsement from Quiver or Happen Apps._
 
+## Installation 
+
+Throw it at a PHP environment. It assumes the `Quiver.qvlibrary` file (or symlink to) is in the root, but this is configurable in [/lib/config.php](/lib/config.php).
+
 ## Example usages
 
 - Share visiual inspiration with a client/3rd party.
