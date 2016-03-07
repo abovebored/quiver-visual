@@ -75,7 +75,7 @@ $r = array_rand($formattedNotes, 1);
 if ($formattedNotes[$r]['images']) $bg = $formattedNotes[$r]['images']{0}['file'];
 ?>
 <div class="view">
-	<div class="view__bg" style="background-image:url(<?php echo $bg ?>)"></div>
+	<div class="view__bg" style="background-image:url(/thumb.php?src=.<?php echo $bg ?>&amp;size=1000x)"></div>
 	<div class="title"><?php echo $notebookMeta['name'] ?></div>
 	<div class="notes">
 	<?php foreach ($formattedNotes as $n): ?>
