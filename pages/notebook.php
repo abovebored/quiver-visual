@@ -83,7 +83,7 @@ if ($formattedNotes[$r]['images']) $bg = $formattedNotes[$r]['images']{0}['file'
 		<?php if (count($n['images'])): ?>
 			<div class="note note--image"><a class="openNote" href="/pages/note.php?notebook=<?php echo $_GET['notebook']?>&amp;note=<?php echo str_replace('.qvnote', '', $n['file']); ?>">
 				<?php if ($n['images_count'] > 1): ?><span class="note__imagecount"><?php echo $n['images_count'] ?></span><?php endif; ?>
-				<div class="note__image" style="padding-top:<?php echo $n['images']{0}['aspect'] ?>%"><img class="delayed-image-load" data-src="<?php echo $n['images']{0}['file'] ?>"></div>
+				<div class="note__image" style="padding-top:<?php echo $n['images']{0}['aspect'] ?>%"><img class="delayed-image-load" data-src="/thumb.php?src=.<?php echo $n['images']{0}['file'] ?>&amp;size=400x"></div>
 				<span class="note__title"><?php echo $n['title'] ?></span>
 			</a></div>
 		<?php else: ?>

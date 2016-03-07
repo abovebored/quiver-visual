@@ -25,7 +25,7 @@ Throw it at a PHP environment. It assumes the `Quiver.qvlibrary` file (or symlin
 
 - [ ] UI customisation options (colour, typography, menu position etc.)
 - [ ] Option to hide text only notes
-- [ ] Add image resizing, caching and compression
+- [x] Add image resizing, caching and compression
 - [ ] Add shareable URLs
 - [ ] Configure which notebooks to publish
 - [ ] Responsive layout
